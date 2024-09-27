@@ -4,7 +4,7 @@ const SERVER_PORT = process.env.port || 3000;
 
 // GET /hello
 app.get('/hello', (req, res) => {
-    // res.type('text/plain');
+    res.type('text/plain');
     res.send('Hello Express JS');
 });
 
